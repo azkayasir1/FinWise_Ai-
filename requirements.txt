@@ -1,0 +1,14 @@
+# LangChain 0.3.x line is pinned deliberately: it still ships the legacy LLMChain class
+# required by the assignment (removed from the main package in LangChain 1.x).
+langchain>=0.3.27,<0.4
+langchain-core>=0.3.74,<0.4
+langchain-openai>=0.3.30,<0.4
+langchain-community>=0.3.27,<0.4
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+plotly>=5.24
+reportlab>=4.2
+python-dotenv>=1.0
+pydantic>=2.7
+pytest>=8.0
